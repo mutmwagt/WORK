@@ -1,0 +1,138 @@
+-Algorithm
+	-Definition
+		-
+
+
+
+
+	-Hash
+	-Encrypt
+
+
+
+-Comparison of cryptography
+	-Cryptography libraries
+		-ACE
+		-Botan
+		-Bouncy Castle
+		-CryptoComply
+		-cryptlib
+		-Crypto++
+		-GnuTLS
+		-Libgcrypt
+		-Libsodium
+		-Libtomcrypt
+		-NaCL
+		-Nettle
+		-Network Security Services
+		-OpenSSL
+		-SafeZone FIPS Lib
+		-WolfCrypt
+	-Key operations
+		-Key generation and exchange
+			-ECDH
+			-DH
+			-DSA
+			-RSA
+			-ElGamal
+			-NTRU
+			-DSS
+		-Elliptic curve cryptography(ECC) support
+			-NIST
+			-SECG
+			-ECC Brainpool
+			-ECDSA
+			-ECDH
+			-Curve25519
+			-EdDSA
+			-GOST R 34.10
+		-Public key cryptography standards
+			-PKCS#1
+			-PKCS#5
+			-PKCS#8
+			-PKCS#12
+			-IEEE P1363
+			-ASN.1
+	-Hash functions
+		-MD5
+		-SHA-1
+		-SHA-2
+		-SHA-3
+		-RIPEMD-160
+		-Tiger
+		-Whirlpool
+		-GOST
+		-Stribog
+		-BLAKE2
+	-MAC algorithms
+		-HMAC-MD5
+		-HMAC-SHA1
+		-HMAC-SHA2
+		-Poly1305-AES
+		-BLAKE2-MAC
+	-Block ciphers
+		-Block cipher algorithms
+			-AES-128
+			-AES-192
+			-AES-256
+			-camellia
+			-3DES
+			-Blowfish
+			-Twofish
+			-CAST5
+			-IDEA
+			-GOST 28147-89
+			-ARIA
+		Cipher modes
+			-ECB
+			-CBC
+			-OFB
+			-CFB
+			-CTR
+			-CCM
+			-GCM
+			-OCB
+			-XTS
+			-AES-Wrap
+			-Stream
+	-Stream ciphers
+		-RC4
+		-HC-256
+		-Rabbit
+		-Salsa20
+		-ChaCha
+		-SEAL
+		-Panama
+		-WAKE
+		-Grain
+		-VMPC
+		-ISAAC
+	-Hardware-assisted support
+		-Smartcard,SIM and HSM protocol support
+			-PKCS#11
+			-PC/SC
+			-CCID
+		-General purpose CPU / platform acceleration support
+			-AES-NI
+			-SSSE3 / SSE4.1
+			-AVx / AVX2
+			-RdRand
+			-VIA PadLock
+			-Intel QuickAssist
+			-ARMv7-A NEON
+			-ARMv8-A
+		-Microcontrollers` cryptographic accelerator support
+			-STM32F2
+			-STM32F4
+			-Cavlum NITROX
+			-Freescale CAU/mmCAU
+			-Microchip PIC32MZ
+			-Atmel ATECC508A
+			-TI TivaC Series
+			-CubeMX
+			-Nordic nRF51
+	-Code size and code to comment ratio
+		-Sorce Code Size (KSLOC = 1000 lines of source code)
+		-Code Lines to Comment Lines Ratio
+	-Portability
+		-Supported Operating Sysytem
