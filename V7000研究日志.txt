@@ -79,17 +79,11 @@
 			指针保存在data/hardeneddata.
 
 #3 v7000研究日志(2018.6.21)
-	0.思路概述
+	0.概述
 		0.1 资料整理
 			通过V7000官方文档细化到具体RAID代码(RAS),位图(BITMAP),映射(MAPPING),指针(compass),缓存(cache),索引(index),表(table)
 		0.2 实验整理
 			基于实验数据,研究样本SSD系统盘中的转储分区(dumps)中的硬化数据(Hardened Data)和RAID存储阵列的LUN映射模块(MAPPING),Winhex分析数据样本,找到规律和映射格式.
 		0.3 代码整理
 			基于分析出的LUN映射算法(MAPPING),RAID算法(RAS),硬化数据算法(Hardeneddata),写出脚本拼出碎片.
-
-#4 v7000研究日志(2018.6.22)
-	0.概述
-		0.1 前3天测试总结
-			0.1.1 测试1
-				
 
